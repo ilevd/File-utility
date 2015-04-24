@@ -78,7 +78,3 @@ printFiles files = do
 	filess <- mainFunc files
 	z <- mapM print filess
 	return z
-
-
-
-
